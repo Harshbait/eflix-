@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background: black;
+}
+.main {
+    background-image: url(images/IN-en-20240603-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    height: 90vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+}
+
+.main .box {
+    height: 90vh;
+    width: 100%;
+    opacity: 0.65;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    height: 62px;
+    margin: auto;
+    max-width: 80vw;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+nav img {
+    color: red;
+    width: 155px;
+    z-index: 10;
+    position: relative;
+}
+
+button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: "Roboto", sans-serif;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    z-index: 10;
+    gap: 23px;
+    padding: 23px;
+    text-align: center;
+}
+.hero> :first-child{
+    font-size: 48px;
+    font-weight: 900;
+}
+.hero> :nth-child(2){
+    font-size: 24px;
+    font-weight: 400;
+}
+.hero> :nth-child(3){
+    font-size: 20px;
+    font-weight: 400;
+}
+.line{
+    height: 5px;
+    background-color: rgb(70, 64, 64);
+}
+.btn{
+    background-color: transparent;
+    color: white;
+    padding: 6px 27px;
+    border-radius: 3px;
+}
+.btn-t{
+    font-weight: 550;
+    font-size: 25px;
+    border-radius: 3px;
+    color: white;
+    padding: 8px 8px;
+    background-color: red;
+}
+.btn-n{
+    color: white;
+    font-weight: 550;
+    background-color: red;
+    padding: 6px 20px;
+    border-radius: 3px;
+}
+.hero-buttons{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.main input{ 
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+    border-radius: 3px;
+    padding: 17px 93px 8px 14px;
+    background-color: transparent;
+    border: 1px solid lightgray;
+}
+.first{
+    font-family: "Roboto", sans-serif;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+    margin: auto;
+    max-width: 80vw;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 1300px) {
+    .first{
+        flex-wrap: wrap;
+    margin-top: 55px;
+    }
+    .secimg img{
+        width: 305px;
+        position: relative;
+        z-index: 10;
+    }
+    .secimg video{
+        width: 275px;
+    }
+}
+.secimg{
+    position: relative;
+
+}
+.secimg img{
+    width: 555px;
+    position: relative;
+    z-index: 10;
+
+}
+.secimg video{
+    position: absolute;
+    width: 404px;
+    top: 82px;
+    right: 75px;
+}
+section .first div{
+    margin-top: 34px;
+    display: flex;
+    flex-direction: column ;
+    padding: 34px 0px;
+}
+.first div :first-child{
+    font-weight: 900;
+    font-size: 48px;
+}
+.first div :nth-child(2){
+    font-size: 24px;
+    font-weight: 400;
+}
+.third video{
+    position: absolute;
+    width: 345px;
+    top: 32px;
+    right: 111px;
+}
+.faq{
+    color: white;
+    background-color: black;
+}
+.faq .f{
+    text-align: center;
+    font-weight: 900;
+    font-size: 48px;
+    padding: 69px 0px 0px 0px;
+}
+.faq .box:hover{
+    background-color: rgb(65, 64, 64);
+    color: white;
+}
+.faq .box{
+    transition: all 1s ease-out;
+    color: white;
+    display: flex;
+    background-color: rgb(52, 51, 51);
+    padding: 24px;
+    max-width: 80vw;
+    margin: 34px auto;
+    font-size: 24px;
+    font-weight: 400;
+    justify-content: space-between;
+    cursor: pointer;
+}
+footer{
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+}
+footer a{
+    text-decoration: underline;
+    color: white;
+}
+.ftg{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    }
+    @media screen and (max-width: 1300px){
+    .ftg{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 55px;
+    }
+}
+    .footre{
+    gap: 34px;
+    display: flex;
+    flex-direction: column;
+}
+.hash{
+       margin-top: 50px;
+    margin-bottom: 34px;
+}
